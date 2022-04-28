@@ -4,6 +4,11 @@ public class Author implements Serializable {
     private int id;
     private String author_name;
 
+    public Author(int id, String author_name) {
+        this.id = id;
+        this.author_name = author_name;
+    }
+
     public int getId() {
         return id;
     }
